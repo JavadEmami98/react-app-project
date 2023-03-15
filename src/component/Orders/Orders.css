@@ -1,0 +1,156 @@
+.order-all {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.orders-header {
+  display: flex;
+  font-size: 19px;
+  color: #ff9900;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 60px;
+}
+
+.input-orders {
+  width: 325px;
+  height: 30px;
+  border: 2px solid #f4f1f1;
+  font-size: 10px;
+}
+
+.orders-b {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 145px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  padding: 10px 15px;
+}
+
+.line-one {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.line-one img {
+  height: 46px;
+  width: 46px;
+}
+
+.sabad {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 0;
+}
+
+.in-sabad {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.in-sabad p:nth-child(2) {
+  font-size: 8px;
+  color: #cccccc;
+}
+
+.delivery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 20px;
+  color: #2c9870;
+  background-color: #afffd5;
+  font-size: 8px;
+  border-radius: 5px;
+}
+
+.delivery2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 20px;
+  color: #9a9a9a;
+  background-color: #f2f2f2;
+  font-size: 8px;
+  border-radius: 5px;
+}
+
+.delivery3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 66px;
+  height: 20px;
+  color: #aea23a;
+  background-color: #fff7af;
+  font-size: 8px;
+  border-radius: 5px;
+}
+
+.line-two {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.buttons {
+  display: flex;
+  font-size: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttons :nth-child(1) {
+  color: #707070;
+  width: 145px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttons :nth-child(2) {
+  color: #ffffff;
+  background-color: #ff9900;
+  width: 145px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  line-height: 0;
+}
+
+.footer3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+  font-size: 7px;
+  border-top: 1px solid rgb(164, 157, 157);
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.small-ft3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}

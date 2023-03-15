@@ -1,0 +1,69 @@
+.two-pics {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+    height: 227px;
+    font-size: 15px;
+    z-index: 10;
+    background-color: white;
+    border-bottom: 2px solid rgb(215, 213, 213);
+}
+
+.two-pics img {
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -10;
+}
+
+/* Text */
+.inside-coffee {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 0px;
+    height: 150px;
+    background-color: white;
+    border-top-left-radius: 25px;
+    width: 100%;
+    margin-top: 75px;
+}
+
+.inside-coffee p:nth-child(1) {
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.inside-coffee p:nth-child(2) {
+    font-size: 10px;
+    color: #969696;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.small-coffee img{
+    position: absolute;
+    top: 30px;
+    right: 25px;
+    width: 70px;
+    height: 70px;
+    z-index: 10;
+}
+
+.text-left p{
+    position: absolute;
+    padding-right: 5px;
+    width: 132px;
+    height: 18px;
+    font-size: 9px;
+    background-color: #FFFFFF;
+    top: 15px;
+    left: 10px;
+    border-radius: 5px;
+    color: #FF9900;
+}

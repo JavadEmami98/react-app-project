@@ -1,0 +1,40 @@
+.support-all {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.support-header {
+  display: flex;
+  font-size: 19px;
+  color: #ff9900;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #e6e6e6;
+  line-height: 0;
+  margin-top: 15px;
+}
+
+.support-header p:nth-child(3) {
+  font-size: 12px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  margin-top: 1.2rem;
+}
+
+.form input:nth-child(4) {
+  height: 217px;
+}
+
+.under-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #919191;
+}
+

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="63" height="20" viewBox="0 0 63 20">
+  <g id="Group_1650" data-name="Group 1650" transform="translate(-239 -583)">
+    <g id="Group_1649" data-name="Group 1649" transform="translate(239 586.938)">
+      <g id="Rectangle_2210" data-name="Rectangle 2210" transform="translate(0 0.062)" fill="#fff" stroke="#707070" stroke-width="0.5">
+        <rect width="16" height="16" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="15.5" height="15.5" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_2211" data-name="Rectangle 2211" transform="translate(47 0.062)" fill="#fff" stroke="#707070" stroke-width="0.5">
+        <rect width="16" height="16" rx="4" stroke="none"/>
+        <rect x="0.25" y="0.25" width="15.5" height="15.5" rx="3.75" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_1648" data-name="Group 1648" transform="translate(243.515 585)">
+      <g id="Icon_feather-plus" data-name="Icon feather-plus" transform="translate(0 5.984)" opacity="0.39">
+        <path id="Path_1071" data-name="Path 1071" d="M18,7.5v7.453" transform="translate(-14.274 -7.5)" fill="none" stroke="#949494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_1072" data-name="Path 1072" d="M7.5,18h7.453" transform="translate(-7.5 -14.274)" fill="none" stroke="#949494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <g id="Icon_feather-plus-2" data-name="Icon feather-plus" transform="translate(46.592 10.28)" opacity="0.39">
+        <path id="Path_1072-2" data-name="Path 1072" d="M7.5,18h7.453" transform="translate(-7.5 -18)" fill="none" stroke="#949494" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <text id="_1" data-name="1" transform="translate(28.485 13)" fill="#f90" font-size="14" font-family="SegoeUI, Segoe UI"><tspan x="-7.547" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

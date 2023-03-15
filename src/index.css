@@ -1,0 +1,21 @@
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  direction: rtl;
+}
+* {
+  box-sizing: border-box;
+  font-family: Yekan, sans-serif !important;
+  list-style-type: none;
+  text-decoration: none;
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+

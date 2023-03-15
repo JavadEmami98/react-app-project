@@ -1,0 +1,54 @@
+.fes-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.under-fes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+  height: 76px;
+
+  padding-right: 20px;
+}
+
+.fes-left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 17px;
+    color: #ff9900;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.fes-left img{
+    width: 28px;
+    height: 28px;
+}
+
+.fes-right p:nth-child(1) {
+  font-size: 22px;
+  color: black;
+}
+
+.fes-right p:nth-child(2) {
+  font-size: 12px;
+  color: #ff9900;
+}
+
+
+.fes-right {
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+}
+
+.fes-text{
+    font-size: 12px;
+    margin: 0 20px;
+    color: #888484;
+}

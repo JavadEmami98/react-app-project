@@ -1,0 +1,78 @@
+.img-mali {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 325px;
+  height: 59px;
+  border-bottom: 1px solid #707070;
+}
+
+.m1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: #cdcccc;
+  border-radius: 50%;
+}
+
+.m2 {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 0;
+}
+
+.m2 p:nth-child(1) {
+    font-size: 12px;
+}
+
+
+.m2 p:nth-child(2) {
+    font-size: 10px;
+    color: #575757;
+    margin-top: 5px;
+}
+
+.m3 {
+  display: flex;
+  flex-direction: column;
+  font-size: 10px;
+  line-height: 0;
+}
+
+.m3 p:nth-child(1) {
+    font-size: 12px;
+}
+
+.m4 p:nth-child(1) {
+    font-size: 12px;
+    line-height: 0;
+}
+
+.m5 p:nth-child(1) {
+    font-size: 12px;
+    line-height: 0;
+}
+
+
+.m3 p:nth-child(2) {
+    font-size: 10px;
+    color: #ff9900;
+    margin-top: 5px;
+}
+
+.m4 p:nth-child(2) {
+    font-size: 10px;
+    color: #00FFB1;
+    margin-top: 5px;
+}
+
+.m5 p:nth-child(2) {
+    font-size: 10px;
+    color: red;
+    margin-top: 5px;
+}
+
