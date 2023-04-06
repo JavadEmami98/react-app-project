@@ -1,17 +1,17 @@
-import { Box } from '@mui/system';
-import React from 'react'
-import Arrow from "../Arrow/arrow";
-import './FanClub.css'
-import FanTab from './FanTab';
+import { Box } from "@mui/system";
+import React from "react";
+import Arrow from "../../Arrow/arrow";
+import "./FanClub.css";
+import FanTab from "./FanTab";
 
 function FanClub() {
   return (
     <div>
-        <Arrow />
-        <div className='gym-header'>
-            <p>باشگاه مشتریان</p>
-        </div>
-        <Box className="under-header">
+      <Arrow />
+      <div className="gym-header">
+        <p>باشگاه مشتریان</p>
+      </div>
+      <Box className="under-header">
         <div className="right">
           <p>مهدی پوررستمی</p>
           <img src="/image/felesh.svg" alt="" />
@@ -31,7 +31,7 @@ function FanClub() {
       </div>
       <FanTab />
     </div>
-  )
+  );
 }
 
-export default FanClub
+export default FanClub;

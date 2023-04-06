@@ -1,0 +1,85 @@
+.container {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: cover;
+  height: 120px;
+}
+
+.logo-c {
+  position: absolute;
+  top: 75px;
+  right: 30px;
+  background-color: #f2f2f2;
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shop-xx {
+  font-size: 17px;
+  margin-right: 25px;
+  margin-top: 25px;
+}
+
+.loc-x {
+  font-size: 12px;
+  display: flex;
+  width: 100px;
+  height: 17.82px;
+  flex-direction: row;
+  margin-right: 25px;
+  color: #888484;
+  align-items: center;
+}
+
+.btn-shop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  padding: 5px;
+}
+
+.orange {
+  background-color: #ff9900 !important;
+}
+
+.gray {
+  background-color: #ccc !important;
+}
+
+.filter-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.search-ps,
+.filter-ps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 25px;
+  margin-top: 50px;
+}
+
+.filter-ps p {
+  font-size: 20px;
+}
+
+/*.search-ps img{
+    width: 25px;
+    height: 25px;
+}*/
+
+.overfolw {
+  overflow-x: hidden;
+}

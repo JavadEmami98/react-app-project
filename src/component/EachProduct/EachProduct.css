@@ -1,0 +1,13 @@
+.each-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.eachheader-small {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

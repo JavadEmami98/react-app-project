@@ -79,6 +79,9 @@ function Starter() {
               height: "51px",
               color: "black",
               backgroundColor: "white",
+              "&:hover": {
+                background: "white",
+              },
             }}
           >
             شروع کنید
@@ -88,13 +91,18 @@ function Starter() {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              my: 2, 
+              my: 2,
             }}
           >
             <Box sx={{ fontSize: "14px", color: "#fff" }}>
               حساب کاربری دارید ؟
             </Box>
-            <Box sx={{ fontSize: "14px", color: "#FFBB00", marginInline: '10px' }}> وارد شوید</Box>
+            <Box
+              sx={{ fontSize: "14px", color: "#FFBB00", marginInline: "10px" }}
+            >
+              {" "}
+              وارد شوید
+            </Box>
           </Box>
         </Box>
       </Box>
