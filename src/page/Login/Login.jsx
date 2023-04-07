@@ -1,7 +1,6 @@
-
 import { Box, Button, Typography } from "@mui/material";
 import React from "react";
-import Arrow from "../Arrow/arrow";
+import Arrow from "../../component/Arrow/arrow";
 import Inputs from "./logininput";
 
 function Login() {
@@ -21,7 +20,7 @@ function Login() {
         >
           <Typography sx={{ fontSize: "35px" }}>ورود</Typography>
           <Typography sx={{ fontSize: "15px" }}>
-          نام کاربری و رمز عبور خودرا وارد نمایید
+            نام کاربری و رمز عبور خودرا وارد نمایید
           </Typography>
           <Inputs />
         </Box>
@@ -43,18 +42,18 @@ function Login() {
             variant="contained"
             sx={{
               fontSize: "15px",
-              width: '323px',
-              height: '57px', 
-              display: 'flex',
-              justifyContent: 'space-between',
-              flexDirection: 'row-reverse',
+              width: "323px",
+              height: "57px",
+              display: "flex",
+              justifyContent: "space-between",
+              flexDirection: "row-reverse",
               color: "white",
               backgroundColor: "black",
               px: 9,
             }}
           >
             ورود با اثر انگشت
-            <img src="/image/fingerprint.svg" alt=""/>
+            <img src="/image/fingerprint.svg" alt="" />
           </Button>
         </Box>
       </Box>

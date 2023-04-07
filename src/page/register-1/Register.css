@@ -1,23 +1,22 @@
 .input-list {
   display: flex;
   flex-direction: column;
-  height: 20px;
   font-size: 15px;
   margin-top: 15px;
   margin-right: 25px;
+  z-index: 1;
 }
 
 .input-list input {
   width: 323px;
   height: 40px;
   border-color: #c4c4c4;
-  margin-top: 15px;
+  margin-top: 18px;
 }
 
-
 .map {
-    position: absolute;
-    bottom: 0;
-    margin-right: 25px;
-    margin-bottom: 150px;
+  position: absolute;
+  bottom: 0;
+  margin-right: 25px;
+  margin-bottom: 150px;
 }

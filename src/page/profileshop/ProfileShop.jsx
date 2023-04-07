@@ -4,6 +4,7 @@ import "./ProfileShop.css";
 import Grid from "@mui/material/Grid";
 import Card from "../../component/Card/Card";
 import FilterPsh from "./FilterPsh";
+import Footer from "../../component/Footer/Footer";
 
 const CATEGROY = [
   { title: "همه", id: 0 },
@@ -239,6 +240,7 @@ function ProfileShop() {
           </Fragment>
         ))}
       </Grid>
+      <Footer/>
     </div>
   );
 }

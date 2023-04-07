@@ -18,7 +18,7 @@ function Register1() {
           اطلاعات خودرا جهت ثبت نام وارد نمایید
         </Typography>
       </Box>
-      <div>
+      <Box>
         <form className="input-list">
           <label>شماره موبایل</label>
           <input type="text" />
@@ -31,7 +31,7 @@ function Register1() {
           <label>شهر </label>
           <input type="text" />
         </form>
-      </div>
+      </Box>
       <div className="map">
         <img src="/image/map.svg" alt="" />
       </div>
@@ -56,15 +56,15 @@ function Register1() {
             width: "323px",
             height: "51px",
             color: "white",
-            backgroundColor: "black",
+            backgroundColor: "black", 
+            "&:hover": {
+              background: "#8a7777",
+            },
           }}
         >
           ثبت نام
         </Button>
       </Box>
-      <div>
-        <input type="checkbox" />
-      </div>
     </div>
   );
 }

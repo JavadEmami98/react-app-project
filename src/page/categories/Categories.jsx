@@ -1,30 +1,19 @@
 import React from "react";
-import Footer from "../Buy/Footer";
+import Footer from "../../component/Footer/Footer";
+import Header from "../../component/Header/Header";
 import "./Categories.css";
-import BasketMenu from "../../component/BasketMenu/BasketMenu";
-import Hammenu from "../../component/HamMenu/Hammenu";
-import { Box } from "@mui/material";
 
 function Categories() {
   return (
     <div>
-      <Box className="header">
-        <Hammenu />
-        <Box className="header-small">
-          <Box sx={{ fontSize: "24px", color: "#101926" }}>مسئول خرید</Box>
-          <Box sx={{ fontSize: "10px", color: "#101926" }}>
-            هر آنچه میخواهید خرید کنید
-          </Box>
-        </Box>
-        <BasketMenu />
-      </Box>
-      <div>
+      <Header />
+      <div className="search-c">
+        <img src="/image/search.svg" alt="" />
         <input
           className="input-search"
           type="text"
           placeholder="جست و جو برای دسته بندی"
         ></input>
-        <img src="/image/search.svg" alt="" />
       </div>
       <div className="list-item">
         <div className="item">
@@ -60,7 +49,6 @@ function Categories() {
           <img src="/image/felesh2.svg" alt="" />
         </div>
       </div>
-
       <Footer />
     </div>
   );

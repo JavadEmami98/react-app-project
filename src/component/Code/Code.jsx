@@ -7,11 +7,14 @@ function Code() {
     <div>
       <Box 
       sx={{
+        display: "flex",
+        flexDirection: "column",
         fontSize: '15px',
         marginBlock: '5px',
+        mt: "30px"
       }}>
       <label htmlFor="name">کد معرف*</label>
-      <input className="myInput" />
+      <input className="myInput"/>
       </Box>
     </div>
   );

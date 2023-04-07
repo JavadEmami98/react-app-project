@@ -71,6 +71,9 @@ function TicketInside() {
             height: "51px",
             color: "white",
             backgroundColor: "#FFA722",
+            "&:hover": {
+              background: "#8a7777",
+            },
           }}
         >
           تیکت جدید

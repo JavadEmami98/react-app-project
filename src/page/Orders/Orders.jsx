@@ -1,5 +1,6 @@
 import { Box } from "@mui/material";
 import React from "react";
+import Footer from "../../component/Footer/Footer";
 import "./Orders.css";
 
 function Orders() {
@@ -35,7 +36,7 @@ function Orders() {
           <div className="in-sabad">
             <img src="/image/order.svg" alt="" />
             <div className="sabad">
-              <p>سبد خرید تاریخ فلان</p>
+              <p>سبد خرید تاریخ </p>
               <p>شنبه 23 شهریور </p>
             </div>
           </div>
@@ -118,7 +119,7 @@ function Orders() {
           <button>مشاهده فاکتور</button>
         </div>
       </div>
-      <footer>
+      {/* <footer>
         <div className="footer3">
           <div className="small-ft3">
             <img src="/image/basket2.svg" alt="" />
@@ -137,7 +138,8 @@ function Orders() {
             <p>فروشگاه ها</p>
           </div>
         </div>
-      </footer>
+      </footer> */}
+      <Footer />
     </div>
   );
 }

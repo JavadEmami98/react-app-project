@@ -56,6 +56,8 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 120px;
+  justify-content: space-between;
 }
 
 .in-sabad p:nth-child(2) {

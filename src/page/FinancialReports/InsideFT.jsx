@@ -1,8 +1,7 @@
 import React from "react";
-import Footer from "../Buy/Footer";
+import Footer from "../../component/Footer/Footer";
 
 import "./InsideFT.css";
-
 
 function InsideFT() {
   return (

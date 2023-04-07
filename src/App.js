@@ -4,7 +4,7 @@ import Starter from "./page/starter";
 import Register from "./page/register/register";
 import Register2 from "./page/register-2/register_2";
 import Register3 from "./page/register3/register3";
-import Login from "./component/Login/Login";
+import Login from "./page/Login/Login";
 import Buy from "./page/Buy/Buy";
 import Categories from "./page/categories/Categories";
 import Shops from "./page/Shops/Shops";

@@ -22,12 +22,12 @@ function FanClub() {
         </div>
       </Box>
       <div>
+        <img src="/image/search.svg" alt="" />
         <input
           className="input-search"
           type="text"
           placeholder="جست و جو برای سفارش مورد نظر"
         ></input>
-        <img src="/image/search.svg" alt="" />
       </div>
       <FanTab />
     </div>

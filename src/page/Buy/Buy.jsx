@@ -1,27 +1,17 @@
 import { Box } from "@mui/system";
 import React from "react";
 import RandomTab from "../../component/RandomTab/RandomTab";
-import BasketMenu from "../../component/BasketMenu/BasketMenu";
-import Hammenu from "../../component/HamMenu/Hammenu";
 import SwiperBestCoffee from "../../component/SwiperBest/SwiperBest";
 import CustomTab from "../../component/Tab/Tab";
 import BackgroundSwiper from "./BackgroundSwiper";
-import "./Buy.css";
 import Swiperyellow from "./Swiperyellow";
+import Header from "../../component/Header/Header";
+import "./Buy.css";
 
 function Buy() {
   return (
     <div className="all">
-      <Box className="header">
-        <Hammenu />
-        <Box className="header-small">
-          <Box sx={{ fontSize: "24px", color: "#101926" }}>مسئول خرید</Box>
-          <Box sx={{ fontSize: "10px", color: "#101926" }}>
-            هر آنچه میخواهید خرید کنید
-          </Box>
-        </Box>
-        <BasketMenu />
-      </Box>
+      <Header />
       <Box className="under-header">
         <div className="right">
           <p>مهدی پوررستمی</p>

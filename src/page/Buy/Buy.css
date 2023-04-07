@@ -1,12 +1,8 @@
 .all {
-  margin: 20px 25px;
+  margin: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 
 .header-small {
   display: flex;
@@ -19,6 +15,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .right {

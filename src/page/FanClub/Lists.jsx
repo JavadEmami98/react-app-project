@@ -1,7 +1,6 @@
 import React from "react";
-import Footer from "../Buy/Footer";
+import Footer from "../../component/Footer/Footer";
 import "./Lists.css";
-
 
 function Lists() {
   return (

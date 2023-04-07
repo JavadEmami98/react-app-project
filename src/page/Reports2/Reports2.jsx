@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import BasketMenu from "../../component/BasketMenu/BasketMenu";
 import Hammenu from "../../component/HamMenu/Hammenu";
+import Footer from "../../component/Footer/Footer";
 import "./Reports2.css";
 
 function Reports2() {
@@ -35,55 +36,36 @@ function Reports2() {
       </div>
 
       <div className="blue-box">
-        <img src="/image/circle.svg" alt=""/>
+        <img src="/image/circle.svg" alt="" />
         <div className="bbox">
-            <p>گزارشات مالی</p>
-            <p>برای ورود به این قسمت کلیک کنید</p>
+          <p>گزارشات مالی</p>
+          <p>برای ورود به این قسمت کلیک کنید</p>
         </div>
         <div className="red-felesh">
-            <img src="/image/felesh2.svg" alt="" />
+          <img src="/image/felesh2.svg" alt="" />
         </div>
       </div>
       <div className="middle-box">
-        <img src="/image/circle.svg" alt=""/>
+        <img src="/image/circle.svg" alt="" />
         <div className="bbox">
-            <p>گزارشات سبد خرید</p>
-            <p>برای ورود به این قسمت کلیک کنید</p>
+          <p>گزارشات سبد خرید</p>
+          <p>برای ورود به این قسمت کلیک کنید</p>
         </div>
         <div className="red-felesh">
-            <img src="/image/felesh2.svg" alt="" />
+          <img src="/image/felesh2.svg" alt="" />
         </div>
       </div>
       <div className="pink-box">
-        <img src="/image/circle.svg" alt=""/>
+        <img src="/image/circle.svg" alt="" />
         <div className="bbox">
-            <p>تیکت ها</p>
-            <p>برای ورود به این قسمت کلیک کنید</p>
+          <p>تیکت ها</p>
+          <p>برای ورود به این قسمت کلیک کنید</p>
         </div>
         <div className="red-felesh">
-            <img src="/image/felesh2.svg" alt="" />
+          <img src="/image/felesh2.svg" alt="" />
         </div>
       </div>
-      <footer>
-        <div className="footer2">
-          <div className="small-ft2">
-            <img src="/image/basket2.svg" alt="" />
-            <p>مسئول خرید من</p>
-          </div>
-          <div className="small-ft2">
-            <img src="/image/report.svg" alt="" />
-            <p>گزارشات</p>
-          </div>
-          <div className="small-ft2">
-            <img src="/image/classify.svg" alt="" />
-            <p>دسته بندی</p>
-          </div>
-          <div className="small-ft2">
-            <img src="/image/shop.svg" alt="" />
-            <p>فروشگاه ها</p>
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

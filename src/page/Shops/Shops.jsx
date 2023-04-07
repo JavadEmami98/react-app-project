@@ -1,23 +1,11 @@
-import { Box } from "@mui/material";
 import React from "react";
-import BasketMenu from "../../component/BasketMenu/BasketMenu";
-import Hammenu from "../../component/HamMenu/Hammenu";
 import "./Shops.css";
+import Header from "../../component/Header/Header";
 
 function Shops() {
   return (
     <div className="all">
-      <Box className="header">
-        <Hammenu />
-        <Box className="header-small">
-          <Box sx={{ fontSize: "24px", color: "#101926" }}>مسئول خرید</Box>
-          <Box sx={{ fontSize: "10px", color: "#101926" }}>
-            هر آنچه میخواهید خرید کنید
-          </Box>
-        </Box>
-        <BasketMenu />
-      </Box>
-
+      <Header />
       <div className="header-1">
         <div className="small-header1">
           <img src="/image/filter.svg" alt="" />
