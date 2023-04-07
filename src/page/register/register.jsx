@@ -1,8 +1,9 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import Arrow from "../Arrow/arrow";
-import Code from "../Code/Code";
-import CustomButton from "../CustomButton/CustomButton";
+import CustomButton from "../../component/CustomButton/CustomButton";
+import Code from "../../component/Code/Code";
+import Arrow from "../../component/Arrow/arrow";
+
 
 function Register() {
   return (

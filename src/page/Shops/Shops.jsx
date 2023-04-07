@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
 import React from "react";
-import BasketMenu from "../BasketMenu/BasketMenu";
-import Hammenu from "../HamMenu/Hammenu";
+import BasketMenu from "../../component/BasketMenu/BasketMenu";
+import Hammenu from "../../component/HamMenu/Hammenu";
 import "./Shops.css";
 
 function Shops() {

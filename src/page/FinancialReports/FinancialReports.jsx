@@ -1,5 +1,5 @@
 import React from "react";
-import Arrow from "../Arrow/arrow";
+import Arrow from "../../component/Arrow/arrow";
 import "./FinancialReports.css";
 import FinTab from "./FinTab";
 

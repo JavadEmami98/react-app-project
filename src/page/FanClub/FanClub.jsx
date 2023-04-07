@@ -1,6 +1,6 @@
 import { Box } from "@mui/system";
 import React from "react";
-import Arrow from "../../Arrow/arrow";
+import Arrow from "../../component/Arrow/arrow";
 import "./FanClub.css";
 import FanTab from "./FanTab";
 

@@ -1,23 +1,23 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Box } from '@mui/material';
-import Starter from "./component/starter";
-import Register from "./component/register/register";
-import Register2 from "./component/register-2/register_2";
-import Register3 from "./component/register3/register3";
+import Starter from "./page/starter";
+import Register from "./page/register/register";
+import Register2 from "./page/register-2/register_2";
+import Register3 from "./page/register3/register3";
 import Login from "./component/Login/Login";
-import Buy from "./component/Buy/Buy";
-import Categories from "./component/categories/Categories";
-import Shops from "./component/Shops/Shops";
-import Festival from "./component/page/Festival/Festival";
-import FinancialReports from "./component/FinancialReports/FinancialReports";
-import Reports2 from "./component/Reports2/Reports2";
-import Orders from "./component/Orders/Orders";
+import Buy from "./page/Buy/Buy";
+import Categories from "./page/categories/Categories";
+import Shops from "./page/Shops/Shops";
+import Festival from "./page/Festival/Festival";
+import FinancialReports from './page/FinancialReports/FinancialReports';
+import Reports2 from "./page/Reports2/Reports2";
+import Orders from "./page/Orders/Orders";
 import Support from "./component/Support/Support";
-import TicketList from "./component/TicketList/TicketList";
-import ProfileShop from "./component/page/profileshop/ProfileShop";
-import Register1 from "./component/register-1/Register1";
+import TicketList from "./page/TicketList/TicketList";
+import ProfileShop from "./page/profileshop/ProfileShop";
+import Register1 from "./page/register-1/Register1";
 import EachProduct from "./component/EachProduct/EachProduct";
-import FanClub from "./component/page/FanClub/FanClub";
+import FanClub from "./page/FanClub/FanClub";
 
 
 

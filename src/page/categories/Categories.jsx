@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "../../Buy/Footer";
+import Footer from "../Buy/Footer";
 import "./Categories.css";
-import BasketMenu from "../../BasketMenu/BasketMenu";
-import Hammenu from "../../HamMenu/Hammenu";
+import BasketMenu from "../../component/BasketMenu/BasketMenu";
+import Hammenu from "../../component/HamMenu/Hammenu";
 import { Box } from "@mui/material";
 
 function Categories() {

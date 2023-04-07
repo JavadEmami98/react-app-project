@@ -1,12 +1,11 @@
 import { Box } from "@mui/system";
 import React from "react";
-import RandomTab from "../../RandomTab/RandomTab";
-import BasketMenu from "../BasketMenu/BasketMenu";
-import Hammenu from "../HamMenu/Hammenu";
-import SwiperBestCoffee from "../SwiperBest/SwiperBest";
-import CustomTab from "../Tab/Tab";
+import RandomTab from "../../component/RandomTab/RandomTab";
+import BasketMenu from "../../component/BasketMenu/BasketMenu";
+import Hammenu from "../../component/HamMenu/Hammenu";
+import SwiperBestCoffee from "../../component/SwiperBest/SwiperBest";
+import CustomTab from "../../component/Tab/Tab";
 import BackgroundSwiper from "./BackgroundSwiper";
-
 import "./Buy.css";
 import Swiperyellow from "./Swiperyellow";
 

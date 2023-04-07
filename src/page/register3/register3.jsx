@@ -1,10 +1,10 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
-import Arrow from "../Arrow/arrow";
-import Code from "../Code/Code";
-import CustomButton from "../CustomButton/CustomButton";
+import Arrow from "../../component/Arrow/arrow";
+import CustomButton from "../../component/CustomButton/CustomButton";
+import InputNum from "../../component/Input/Input";
 
-function Register2() {
+function Register3() {
   return (
     <div>
       <Box>
@@ -22,11 +22,11 @@ function Register2() {
         >
           <Typography sx={{ fontSize: "33px" }}>بازیابی رمز عبور</Typography>
           <Typography sx={{ fontSize: "15px" }}>شماره موبایل خودرا جهت بازیابی رمز عبور وارد کنید</Typography>
-          <Code />
-        </Box>
+          <InputNum />
+          </Box>
       </Box>
     </div>
   );
 }
 
-export default Register2;
+export default Register3;

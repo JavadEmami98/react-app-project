@@ -1,6 +1,6 @@
 import React from "react";
 import "./Register.css";
-import Arrow from "../Arrow/arrow";
+import Arrow from "../../component/Arrow/arrow";
 import { Box, Typography, Button } from "@mui/material";
 
 function Register1() {

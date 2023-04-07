@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 import "./RandomTab.css";
-import SwiperBuy from "../component/Swiper/Swiper";
+import SwiperBuy from "../../component/Swiper/Swiper";
 
 
 function TabPanel(props) {

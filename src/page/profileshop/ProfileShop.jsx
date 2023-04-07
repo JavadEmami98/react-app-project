@@ -2,7 +2,7 @@ import React, { Fragment, useState } from "react";
 import { Button } from "@mui/material";
 import "./ProfileShop.css";
 import Grid from "@mui/material/Grid";
-import Card from "../../Card/Card";
+import Card from "../../component/Card/Card";
 import FilterPsh from "./FilterPsh";
 
 const CATEGROY = [
