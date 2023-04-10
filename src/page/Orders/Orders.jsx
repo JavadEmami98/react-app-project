@@ -2,6 +2,7 @@ import { Box } from "@mui/material";
 import React from "react";
 import Footer from "../../component/Footer/Footer";
 import "./Orders.css";
+import Search from "../../component/Search/Search";
 
 function Orders() {
   return (
@@ -23,13 +24,7 @@ function Orders() {
           <p> سفارشات</p>
         </div>
       </div>
-      <div>
-        <input
-          className="input-orders"
-          type="text"
-          placeholder="جست و جو برای سفارش مورد نظر"
-        />
-      </div>
+      <Search/>
 
       <div className="orders-b">
         <div className="line-one">

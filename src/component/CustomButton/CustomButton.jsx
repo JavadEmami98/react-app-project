@@ -25,7 +25,7 @@ function CustomButton() {
             width: "323px",
             height: "51px",
             color: "white",
-            backgroundColor: "black",
+            backgroundColor: "var(--secondary-color)",
             "&:hover": {
               background: "#8a7777",
             },

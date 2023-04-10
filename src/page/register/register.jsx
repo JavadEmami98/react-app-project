@@ -3,13 +3,16 @@ import React from "react";
 import CustomButton from "../../component/CustomButton/CustomButton";
 import Code from "../../component/Code/Code";
 import Arrow from "../../component/Arrow/arrow";
-
+import { Link } from "react-router-dom";
 
 function Register() {
   return (
     <div>
       <Box>
-        <Arrow></Arrow>
+        <Link to={"/register1"}>
+          <Arrow />
+        </Link>
+
         <Box
           sx={{
             display: "flex",
@@ -25,7 +28,9 @@ function Register() {
             کد معرف خودرا وارد کنید
           </Typography>
           <Code />
-          <CustomButton />
+          <Link to={"/register2"}>
+            <CustomButton />
+          </Link>
         </Box>
       </Box>
     </div>

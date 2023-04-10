@@ -2,19 +2,13 @@ import React from "react";
 import Footer from "../../component/Footer/Footer";
 import Header from "../../component/Header/Header";
 import "./Categories.css";
+import Search from "../../component/Search/Search";
 
 function Categories() {
   return (
     <div>
       <Header />
-      <div className="search-c">
-        <img src="/image/search.svg" alt="" />
-        <input
-          className="input-search"
-          type="text"
-          placeholder="جست و جو برای دسته بندی"
-        ></input>
-      </div>
+      <Search/>
       <div className="list-item">
         <div className="item">
           میوه و تره بار

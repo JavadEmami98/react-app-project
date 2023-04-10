@@ -3,13 +3,15 @@ import React from "react";
 import Arrow from "../../component/Arrow/arrow";
 import CustomButton from "../../component/CustomButton/CustomButton";
 import InputNum from "../../component/Input/Input";
+import { Link } from "react-router-dom";
 
 function Register3() {
   return (
     <div>
       <Box>
-        <CustomButton />
-        <Arrow />
+        <Link to={"/register2"}>
+          <Arrow />
+        </Link>
         <Box
           sx={{
             display: "flex",
@@ -21,9 +23,14 @@ function Register3() {
           }}
         >
           <Typography sx={{ fontSize: "33px" }}>بازیابی رمز عبور</Typography>
-          <Typography sx={{ fontSize: "15px" }}>شماره موبایل خودرا جهت بازیابی رمز عبور وارد کنید</Typography>
+          <Typography sx={{ fontSize: "15px" }}>
+            شماره موبایل خودرا جهت بازیابی رمز عبور وارد کنید
+          </Typography>
           <InputNum />
-          </Box>
+        </Box>
+        <Link to={"/login"}>
+          <CustomButton />
+        </Link>
       </Box>
     </div>
   );

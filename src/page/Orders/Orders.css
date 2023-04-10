@@ -6,18 +6,11 @@
 .orders-header {
   display: flex;
   font-size: 19px;
-  color: #ff9900;
+  color: var(--primary-color);
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid #e6e6e6;
   line-height: 60px;
-}
-
-.input-orders {
-  width: 325px;
-  height: 30px;
-  border: 2px solid #f4f1f1;
-  font-size: 10px;
 }
 
 .orders-b {
@@ -125,7 +118,7 @@
 
 .buttons :nth-child(2) {
   color: #ffffff;
-  background-color: #ff9900;
+  background-color: var(--primary-color);
   width: 145px;
   height: 35px;
   border-radius: 5px;

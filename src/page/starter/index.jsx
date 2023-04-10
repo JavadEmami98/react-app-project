@@ -1,5 +1,6 @@
 import { Box, Button } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Starter() {
   return (
@@ -71,39 +72,46 @@ function Starter() {
             px: 2,
           }}
         >
-          <Button
-            variant="contained"
-            sx={{
-              fontSize: "17px",
-              width: "323px",
-              height: "51px",
-              color: "black",
-              backgroundColor: "white",
-              "&:hover": {
-                background: "white",
-              },
-            }}
-          >
-            شروع کنید
-          </Button>
-          <Box
-            sx={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              my: 2,
-            }}
-          >
-            <Box sx={{ fontSize: "14px", color: "#fff" }}>
-              حساب کاربری دارید ؟
-            </Box>
-            <Box
-              sx={{ fontSize: "14px", color: "#FFBB00", marginInline: "10px" }}
+          <Link to={"/register1"}>
+            <Button
+              variant="contained"
+              sx={{
+                fontSize: "17px",
+                width: "323px",
+                height: "51px",
+                color: "var(--secondary-color)",
+                backgroundColor: "white",
+                "&:hover": {
+                  background: "white",
+                },
+              }}
             >
-              {" "}
-              وارد شوید
+              شروع کنید
+            </Button>
+          </Link>
+          <Link to={"/login"}>
+            <Box
+              sx={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                my: 2,
+              }}
+            >
+              <Box sx={{ fontSize: "14px", color: "#fff" }}>
+                حساب کاربری دارید ؟
+              </Box>
+              <Box
+                sx={{
+                  fontSize: "14px",
+                  color: "#FFBB00",
+                  marginInline: "10px",
+                }}
+              >
+                وارد شوید
+              </Box>
             </Box>
-          </Box>
+          </Link>
         </Box>
       </Box>
     </div>

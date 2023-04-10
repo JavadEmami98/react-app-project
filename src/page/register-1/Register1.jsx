@@ -2,11 +2,15 @@ import React from "react";
 import "./Register.css";
 import Arrow from "../../component/Arrow/arrow";
 import { Box, Typography, Button } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Register1() {
   return (
     <div>
-      <Arrow />
+      <Link to={"/"}>
+        <Arrow />
+      </Link>
+
       <Box
         sx={{
           mt: "70px",
@@ -49,21 +53,23 @@ function Register1() {
           px: 2,
         }}
       >
-        <Button
-          variant="contained"
-          sx={{
-            fontSize: "17px",
-            width: "323px",
-            height: "51px",
-            color: "white",
-            backgroundColor: "black", 
-            "&:hover": {
-              background: "#8a7777",
-            },
-          }}
-        >
-          ثبت نام
-        </Button>
+        <Link to={"/register"}>
+          <Button
+            variant="contained"
+            sx={{
+              fontSize: "17px",
+              width: "323px",
+              height: "51px",
+              color: "white",
+              backgroundColor: "var(--secondary-color)",
+              "&:hover": {
+                background: "#8a7777",
+              },
+            }}
+          >
+            ثبت نام
+          </Button>
+        </Link>
       </Box>
     </div>
   );

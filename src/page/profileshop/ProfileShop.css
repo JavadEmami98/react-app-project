@@ -49,7 +49,7 @@
 }
 
 .orange {
-  background-color: #ff9900 !important;
+  background-color: var(--primary-color) !important;
 }
 
 .gray {

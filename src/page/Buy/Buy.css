@@ -29,12 +29,12 @@
   background-color: #ffcc80;
   opacity: 45%;
   border-radius: 5px;
-  color: #ff9900;
+  color: var(--primary-color);
 }
 
 .under-header p {
   font-size: 10px;
-  color: #ff9900;
+  color: var(--primary-color);
   opacity: 100%;
 }
 
@@ -60,6 +60,7 @@
 
 .pic img {
   object-fit: cover;
+  width: 100%;
 }
 
 .small-pics {
@@ -130,7 +131,7 @@
 .c-products {
   width: 50%;
   border-left: 30px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--secondary-color);
 }
 
 .d-products {

@@ -12,18 +12,6 @@
   flex-direction: column;
 }
 
-.search-c {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.input-search {
-  width: 320px;
-  height: 30px;
-  border: 2px solid #f4f1f1;
-  margin-top: 10px;
-}
 
 .list-item {
   display: flex;

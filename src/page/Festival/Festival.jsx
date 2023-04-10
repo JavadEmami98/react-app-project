@@ -63,7 +63,7 @@ function Festival() {
               width: "328px",
               height: "51px",
               color: "white",
-              backgroundColor: "#FF9900",
+              backgroundColor: "var(--primary-color)",
               border: 'none',
               borderRadius: "10px",
             }}

@@ -2,13 +2,16 @@ import { Box, Typography } from "@mui/material";
 import React from "react";
 import Arrow from "../../component/Arrow/arrow";
 import CustomButton from "../../component/CustomButton/CustomButton";
+import { Link } from "react-router-dom";
 
 function Register2() {
   return (
     <div>
       <Box>
-        <CustomButton />
-        <Arrow />
+        <Link to={"/register"}>
+          <Arrow />
+        </Link>
+
         <Box
           sx={{
             display: "flex",
@@ -38,6 +41,9 @@ function Register2() {
             </Box>
           </div>
         </Box>
+        <Link to={"/register3"}>
+          <CustomButton />
+        </Link>
       </Box>
     </div>
   );

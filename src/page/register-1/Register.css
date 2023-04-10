@@ -16,7 +16,7 @@
 
 .map {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
   margin-right: 25px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
 }

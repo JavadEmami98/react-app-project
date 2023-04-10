@@ -3,11 +3,15 @@ import React from "react";
 import Arrow from "../../component/Arrow/arrow";
 import "./FanClub.css";
 import FanTab from "./FanTab";
+import { Link } from "react-router-dom";
 
 function FanClub() {
   return (
     <div>
-      <Arrow />
+      <Link to={"/festival"}>
+        <Arrow />
+      </Link>
+
       <div className="gym-header">
         <p>باشگاه مشتریان</p>
       </div>

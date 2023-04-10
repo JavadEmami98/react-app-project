@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
-import Pastay from "./Pastay";
+import Pasta from "../../component/Pasta/Pasta";
 
 
 export default function Swiperyellow() {
@@ -25,9 +25,9 @@ export default function Swiperyellow() {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><Pastay/></SwiperSlide>
-        <SwiperSlide><Pastay/></SwiperSlide>
-        <SwiperSlide><Pastay/></SwiperSlide>
+        <SwiperSlide><Pasta/></SwiperSlide>
+        <SwiperSlide><Pasta/></SwiperSlide>
+        <SwiperSlide><Pasta/></SwiperSlide>
       </Swiper>
     </>
   );

@@ -2,12 +2,16 @@ import { Box, Button, Typography } from "@mui/material";
 import React from "react";
 import Arrow from "../../component/Arrow/arrow";
 import Inputs from "./logininput";
+import { Link } from "react-router-dom";
 
 function Login() {
   return (
     <div>
       <Box>
-        <Arrow />{" "}
+        <Link to={"/"}>
+          <Arrow />
+        </Link>
+
         <Box
           sx={{
             display: "flex",

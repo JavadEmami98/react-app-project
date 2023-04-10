@@ -27,6 +27,8 @@ body {
   -moz-font-feature-settings: "ss02";
   -webkit-font-feature-settings: "ss02";
   font-feature-settings: "ss02";
+  --primary-color: #FF9900;
+  --secondary-color: #000000;
 }
 
 .full {

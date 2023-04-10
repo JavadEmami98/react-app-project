@@ -65,5 +65,5 @@
     top: 15px;
     left: 10px;
     border-radius: 5px;
-    color: #FF9900;
+    color: var(--primary-color);
 }
