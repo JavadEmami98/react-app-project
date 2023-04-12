@@ -8,7 +8,7 @@ function Categories() {
   return (
     <div>
       <Header />
-      <Search/>
+      <Search />
       <div className="list-item">
         <div className="item">
           میوه و تره بار

@@ -12,10 +12,10 @@ export default class InputNum extends Component {
         value={this.state.otp}
         onChange={this.handleChange}
         numInputs={6}
-        separator={<span>&nbsp;&nbsp;</span>}
+        separator={<span>&nbsp;&nbsp;&nbsp;</span>}
         inputStyle={{
-          width: "38px",
-          hight: "47px",
+          width: "25px",
+          hight: "48px",
         }}
       />
     );

@@ -23,7 +23,7 @@ function Register3() {
           }}
         >
           <Typography sx={{ fontSize: "33px" }}>بازیابی رمز عبور</Typography>
-          <Typography sx={{ fontSize: "15px" }}>
+          <Typography sx={{ fontSize: "15px", color: "#7d7d7d" }}>
             شماره موبایل خودرا جهت بازیابی رمز عبور وارد کنید
           </Typography>
           <InputNum />

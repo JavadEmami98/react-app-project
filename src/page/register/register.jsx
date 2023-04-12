@@ -24,8 +24,8 @@ function Register() {
           }}
         >
           <Typography sx={{ fontSize: "33px" }}>ثبت نام</Typography>
-          <Typography sx={{ fontSize: "15px" }}>
-            کد معرف خودرا وارد کنید
+          <Typography sx={{ fontSize: "15px", color: "#7d7d7d" }}>
+            کد معرف خود را وارد کنید
           </Typography>
           <Code />
           <Link to={"/register2"}>

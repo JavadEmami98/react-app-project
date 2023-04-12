@@ -18,7 +18,7 @@ function Register1() {
         }}
       >
         <Typography sx={{ fontSize: "33px" }}>ثبت نام</Typography>
-        <Typography sx={{ fontSize: "15px" }}>
+        <Typography sx={{ fontSize: "15px", color: "#7d7d7d" }}>
           اطلاعات خودرا جهت ثبت نام وارد نمایید
         </Typography>
       </Box>
@@ -36,9 +36,9 @@ function Register1() {
           <input type="text" />
         </form>
       </Box>
-      <div className="map">
+      {/* <div className="map">
         <img src="/image/map.svg" alt="" />
-      </div>
+      </div> */}
       <Box
         sx={{
           position: "fixed",

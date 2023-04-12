@@ -11,9 +11,10 @@ function Code() {
         flexDirection: "column",
         fontSize: '15px',
         marginBlock: '5px',
-        mt: "30px"
+        mt: "25px",
+        color: "#7d7d7d"
       }}>
-      <label htmlFor="name">کد معرف*</label>
+      <label htmlFor="name">کد معرف</label>
       <input className="myInput"/>
       </Box>
     </div>

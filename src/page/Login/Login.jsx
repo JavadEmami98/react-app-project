@@ -23,7 +23,7 @@ function Login() {
           }}
         >
           <Typography sx={{ fontSize: "35px" }}>ورود</Typography>
-          <Typography sx={{ fontSize: "15px" }}>
+          <Typography sx={{ fontSize: "15px", color: "#7d7d7d" }}>
             نام کاربری و رمز عبور خودرا وارد نمایید
           </Typography>
           <Inputs />
